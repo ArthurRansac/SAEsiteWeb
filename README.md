@@ -13,7 +13,10 @@ a edit : https://www.figma.com/design/SsbIvDWpF3fGXFYqA27X2L/a-edit?node-id=2007
 - git branch main
 - git pull origin main "*il ne faut pas de fichier ou dossier avec le meme nom*"
 # pour push
-- git add Ficher1.html Fichier2.xxx "*et le reste*"
+- git branch "*il faut vérifier que l'on ait sur la branch main*"
+- "*si non*" git branch -M main
+- git pull origin main "*si jamais on a pas tout pull à faire pour vérifier dans tout les cas*"
+- git add Ficher1.html Fichier2.xxx "*ou*" git add . "*pour tout add*"
 - git commit -m " explication des modification du push "
 - git push origin main
 
