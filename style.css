@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Mapolice;
+    src: url("/fonts/Georgia.ttf") format(".ttf");
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -15,8 +22,7 @@ body {
     background: #103e52 url("assets/ValThorens.png") center top / cover no-repeat;
 }
 .page-domaines{
-    background: #103e52 url("assets/domainev3.jpg") center top / cover no-repeat;
-    
+    background: linear-gradient(to top,rgba(0,0,0,0.8) 20%,rgba(255,255,255,0.1) 40%), url("assets/domainev3.jpg") center top / cover no-repeat; ;
 }
 
 .site-header {
@@ -169,8 +175,20 @@ button:focus i{
     }
 }
 
+h1,p{
+    color: rgb(255, 255, 255);
+    font-family: Mapolice;
+    font-size: 400%;
+    position: absolute;
+    font-weight: 400;
+}
 h1{
-    color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-size: 400%;
+    bottom: 25%;
+    left: 1%;
+}
+p{
+    font-size: 100%;
+    bottom: 25%;
+    left: 1%;
 }
