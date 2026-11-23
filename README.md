@@ -16,3 +16,37 @@ a edit : https://www.figma.com/design/SsbIvDWpF3fGXFYqA27X2L/a-edit?node-id=2007
 - git add Ficher1.html Fichier2.xxx "*et le reste*"
 - git commit -m " explication des modification du push "
 - git push origin main
+
+# Check list (à faire)
+- [x] le site Web doit être hébergé et accessible sur le Web (2,5 %) ;
+- [ ] un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; 
+- [ ] la balise meta description devra être renseignée (1,25 %) ; 
+- [ ] le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; 
+- [ ] un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web 
+(2,5 %) ; 
+- [ ] des  liens  vers  d'autres  sites Web  devront  être  présents  sur  une  des  pages  ou  vue Web 
+(2,5 %) ; 
+- [ ] un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré 
+automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ; 
+- [ ] une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (5 %) ; 
+- [x] pour les longues pages Web, un ancrage permettant de remonter en haut de la page (2,5 %) ; 
+- [ ] possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation 
+d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut 
+(7,5 %) ; 
+- [ ] le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; 
+- [ ] bonne architecture des répertoires (2,5 %) ; 
+- [ ] programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
+convention de nommage en anglais, indentation et commentarisation du code source 
+(5 %)  
+- [ ] l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
+l’adresse du département informatique) et réseaux sociaux (10 %) ainsi que l’optimisation 
+avec la compression des images (1,25 %), l’utilisation des préfixes propriétaires et la 
+minification du CSS (1,25 %), devront être travaillés ; 
+- [ ] le  site  Web  devra  présenter  le  plus  grand  nombre  possible  de  bonnes  pratiques 
+d’écoconception (2,5 %) ; 
+- [ ] validation W3C de toutes vos pages HTML (réglage HTML5) (5 %) ; 
+- [ ] validation  W3C  de  toutes  vos  pages  CSS  (réglage  CSS  niveau  3  avec  aucun 
+avertissement et gestion des extensions propriétaires comme avertissement) (2,5 %) ; 
+- [x] utilisation d’un système de gestion de projet comme Notion, ClickUp, Trello, GitHub 
+Issues, Linear, ou Jira (2,5 %) et de gestion de version comme GitHub (2,5 %) ; 
+- [ ] perfectionnement avec l’ajouts de fonctionnalités (5 %) ;
