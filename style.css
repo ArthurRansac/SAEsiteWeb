@@ -15,7 +15,8 @@ body {
     background: #103e52 url("assets/ValThorens.png") center top / cover no-repeat;
 }
 .page-domaines{
-    background: #103e52 url("assets/domainev2.jpg") center top / cover no-repeat;
+    background: #103e52 url("assets/domainev3.jpg") center top / cover no-repeat;
+    
 }
 
 .site-header {
@@ -170,4 +171,6 @@ button:focus i{
 
 h1{
     color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
