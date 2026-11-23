@@ -19,12 +19,12 @@ a edit : https://www.figma.com/design/SsbIvDWpF3fGXFYqA27X2L/a-edit?node-id=2007
 
 # Check list (à faire)
 - [x] le site Web doit être hébergé et accessible sur le Web (2,5 %) ;
-- [ ] un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; 
-- [ ] la balise meta description devra être renseignée (1,25 %) ; 
-- [ ] le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; 
-- [ ] un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web 
+- [X] un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; 
+- [X] la balise meta description devra être renseignée (1,25 %) ; 
+- [X] le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; 
+- [X] un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web 
 (2,5 %) ; 
-- [ ] des  liens  vers  d'autres  sites Web  devront  être  présents  sur  une  des  pages  ou  vue Web 
+- [X] des  liens  vers  d'autres  sites Web  devront  être  présents  sur  une  des  pages  ou  vue Web 
 (2,5 %) ; 
 - [ ] un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré 
 automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ; 
@@ -34,7 +34,7 @@ automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5
 d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut 
 (7,5 %) ; 
 - [ ] le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; 
-- [ ] bonne architecture des répertoires (2,5 %) ; 
+- [X] bonne architecture des répertoires (2,5 %) ; 
 - [ ] programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
 convention de nommage en anglais, indentation et commentarisation du code source 
 (5 %)  
