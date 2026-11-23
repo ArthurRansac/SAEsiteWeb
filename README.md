@@ -50,3 +50,7 @@ avertissement et gestion des extensions propriétaires comme avertissement) (2,5
 - [x] utilisation d’un système de gestion de projet comme Notion, ClickUp, Trello, GitHub 
 Issues, Linear, ou Jira (2,5 %) et de gestion de version comme GitHub (2,5 %) ; 
 - [ ] perfectionnement avec l’ajouts de fonctionnalités (5 %) ;
+
+
+
+mdp always data : SiteWebSamuel
