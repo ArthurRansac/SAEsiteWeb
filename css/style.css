@@ -16,7 +16,8 @@ body {
 }
 
 .page-principale{
-    background: linear-gradient(to top,rgba(0,0,0,0.8) 20%,rgba(255,255,255,0.1) 40%),url("../assets/montagne.png") center top / cover no-repeat;
+    min-width: 100vw;
+    background: linear-gradient(to top,rgba(0,0,0,1) 10%,rgba(255,255,255,0.1) 40%),url("../assets/montagne.png") center top / cover no-repeat;
 }
 
 .page-stations{
@@ -44,6 +45,7 @@ body {
 .nav-links,
 .nav-links a {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 .nav-center {
@@ -52,8 +54,9 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: white;width
     text-decoration: none;
+    min-width: 0px;
 }
 .navbar img {
     display: block;
@@ -73,19 +76,18 @@ body {
     position:relative;
     display: flex;
     align-items: center;
-    padding: 10px 15px;
+    padding: 10pxmin-width 15px;
     border: 1px solid #ccc;
     border-radius: 25px;
     margin: 0;
     justify-self: end;
     width: 100%;
     max-width: 260px;
-    min-width: 0;
+    min-width: 0px;
     background-color: whitesmoke;
 }
 .searchbar input {
-    min-width: 0;
-    width: 100%;
+    min-width: 0px;
     border: none;
     outline: none;
     background-color: transparent;
@@ -122,8 +124,12 @@ button i {
 button:focus i{
     transform: rotate(180deg);
 }
-.dropdown-container{
+
+
+.dropdown-container{  
+
     position: relative;
+    max-width: 320px;
 }
 
 .dropdown {            <a> adad </a>
@@ -135,7 +141,8 @@ button:focus i{
     opacity: 0;
     pointer-events: none;
     transition: .3s ease;
-    width: 100%;
+    min-width: 0;
+    white-space: normal;
     top: calc(100% + 20px);
 }
 
@@ -156,7 +163,13 @@ button:focus i{
     width: 100%;
     color: #a9a9a9;
     font-weight: 600;
-    transition: .2s;
+    transition: .2s;const el = document.querySelector('.page-principale');
+console.log({
+  'el.offsetWidth': el.offsetWidth,
+  'document.documentElement.clientWidth': document.documentElement.clientWidth, // = 100% utile
+  'window.innerWidth': window.innerWidth,                                       // = 100vw
+  'scrollbar': window.innerWidth - document.documentElement.clientWidth
+});
 }
 
 .dropdown a:hover {
@@ -198,13 +211,24 @@ p{
     bottom: 31%;
 }
 
-/* pour la mettre la vidéo avec les sous titre en bas à voir si c'est la bonne solution */
+/* pour la mettre la vidéo avec les sous titre en bas de index.html à voir si c'est la bonne solution */
 .video-soustitre-section{
-    background-color: rgba(0,0,0,1);
+    min-width: 100vw;
+    background: linear-gradient(to bottom,rgba(0,0,0,1) 10%,rgba(20,20,30,0.1) 35%);
+    background-color: rgba(20,20,30,1);
     min-height: 100vh;
+    max-width: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.video-soustitre {
+    display: block;
+    width: 100%;
+    max-width: 560px;     
+    height: auto;
+    aspect-ratio: 16 / 9; 
 }
 
 .titre-video {
@@ -212,7 +236,7 @@ p{
 }
 
 .under-nav {
-    min-height: 100vh;
+    min-height: 80vh;
 
 }
 
