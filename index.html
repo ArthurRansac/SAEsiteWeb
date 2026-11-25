@@ -5,51 +5,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Voici Notre site Web inspiré du site officiel https://www.les3vallees.com/fr">
         <title>Domaine des 3 Vallées</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="assets/fav.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
-    <body>
-        <section class="page-principale"> 
+    <body class="page-accueil">
+        <div class="page-principale">
             <header class="site-header">
-                <nav class="navbar">
+                <nav class="navbar" aria-label="Navigation principale">
                     <div class="nav-center">
-                      
                         <a class="instagram" href="https://www.instagram.com/les3vallees_officiel/">
-                            <img src="assets/instagram.svg" width="20" height="20">
+                            <img src="assets/instagram.svg" alt="Instagram des 3 Vallées" width="20" height="20">
                         </a>
                         <a class="logo" href="index.html">
-                            <img src="assets/Logo.png" width="96" height="44">
+                            <img src="assets/Logo.png" alt="Les 3 Vallées — Accueil" width="96" height="44">
                         </a>
                         <div class="nav-links">
-                            <a href="Forfaits.html">Forfaits <img src="assets/forfaits.svg"  width="16" height="16"></a>
-                            <a href="Reservation.html">Réservation <img src="assets/external.svg"  width="14" height="14"></a>
+                            <a href="Forfaits.html">Forfaits <img src="assets/forfaits.svg" alt="" width="16" height="16"></a>
+                            <a href="Reservation.html">Réservation <img src="assets/external.svg" alt="" width="14" height="14"></a>
                         </div>
                     </div>
                     <div class="searchbar">
-                        <input type="text" placeholder="Rechercher..">
+                        <input type="search" aria-label="Rechercher" placeholder="Rechercher…">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div class="dropdown-container">
-                        <button>Categories<i class="fa-solid fa-angle-down"></i></button>
+                        <button>Catégories<i class="fa-solid fa-angle-down"></i></button>
                         <div class="dropdown">
-                            <a href="Domaine.html">Le Domaines</a>
-                            <a href="Stations.html">Les Stations</a>
-                            <a href="Reservation.html">Reservation</a>
+                            <a href="Domaine.html">Le domaine</a>
+                            <a href="Stations.html">Les stations</a>
+                            <a href="Reservation.html">Réservation</a>
                             <a href="Forfaits.html">Forfaits</a>
                         </div>
                     </div>
                 </nav>
             </header>
-        <section class="under-nav"> 
-
-        </section>
-        </section> 
-        
+            <section class="under-nav" aria-labelledby="titre-accueil">
+                <h1 id="titre-accueil"><span id="accueil-vallees">Les 3 Vallées</span> <span id="accueil-experiences">Experiences</span></h1>
+                <a class="disponibilites" href="https://www.les3vallees.com/fr/experiences">Découvrir <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </section>
+        </div>
         <main>
             <section class="video-soustitre-section">
                 <div>
-                    <video width="560" height="315" controls class="video-soustitre">
+                    <video width="560" height="315" controls preload="metadata" class="video-soustitre">
                         <source src="video/3-vallees.mp4" type="video/mp4">
                         <track src="video/sous-titres-fr.vtt" kind="subtitles" srclang="fr" label="Français" default>
                         Votre navigateur ne supporte pas la lecture de vidéos.
@@ -57,7 +56,6 @@
                     <h2 class="titre-video">Val Thorens. La station d'hiver </h2>
                 </div>
             </section>
-
         </main>
     </body>
 </html>
