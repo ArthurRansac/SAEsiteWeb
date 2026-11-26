@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Les Menuires : Des pistes accessibles pour les premières descentes">
+        <title>Les Menuires - Les 3 Vallées</title>
+        <link id="theme" rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/fav.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head>
+    <body class="page-station">
+        <header class="site-header">
+            <nav class="navbar" aria-label="Navigation principale">
+                <div class="nav-center">
+                    <a class="instagram" href="https://www.instagram.com/les3vallees_officiel/">
+                        <img src="../assets/instagram.svg" alt="Instagram des 3 Vallées" width="20" height="20">
+                    </a>
+                    <a class="logo" href="index.html">
+                        <img src="../assets/Logo.png" alt="Les 3 Vallées — Accueil" width="96" height="44">
+                    </a>
+                    <div class="nav-links">
+                        <a href="Forfaits.html">Forfaits <img src="../assets/forfaits.svg" alt="" width="16" height="16"></a>
+                        <a href="Reservation.html">Réservation <img src="../assets/external.svg" alt="" width="14" height="14"></a>
+                    </div>
+                </div>
+                <div class="searchbar">
+                    <input type="search" aria-label="Rechercher" placeholder="Rechercher…">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <details class="dropdown-container">
+                    <summary>Catégories<i class="fa-solid fa-angle-down" aria-hidden="true"></i></summary>
+                    <div class="dropdown">
+                        <a href="Domaine.html">Le domaine</a>
+                        <a href="Stations.html">Les stations</a>
+                        <a href="Reservation.html">Réservation</a>
+                        <a href="Forfaits.html">Forfaits</a>
+                        <a href="sources.html">Sources</a>
+                    </div>
+                </details>
+            </nav>
+        </header>
+        <main>
+            <section class="station-bandeau" id="station-les-menuires">
+                <a class="station-retour" href="Stations.html">← Les stations</a>
+                <h1>Les Menuires</h1>
+                <p>Des pistes accessibles pour les premières descentes</p>
+                <a class="lien-plan" href="https://www.les3vallees.com/fr/station/les-menuires">Découvrir la station sur le site officiel ↗</a>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <img src="../assets/LOGO_AMU.webp" alt="Aix-Marseille Université" width="240" height="83">
+            <div class="footer-reseaux">
+                <a href="https://www.facebook.com/les3vallees.officiel/" aria-label="Facebook des 3 Vallées">
+                    <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://x.com/3Vallees_france?s=20" aria-label="X Twitter des 3 Vallées">
+                    <i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+            <nav class="footer-liens" aria-label="Liens de pied de page">
+                <!-- button avec js pour le changement de feuille de style viens de : https://www.geeksforgeeks.org/javascript/how-to-switch-between-multiple-css-stylesheets-using-javascript/ -->
+                <button onclick="toggleTheme()">Switch</button>
+                <script>
+                    function toggleTheme() {
+                        // Select the <link> element
+                        let theme = document.getElementById('theme');
+
+                        // Toggle between light.css and dark.css
+                        if (theme.getAttribute('href') == '../css/style.css') {
+                            theme.setAttribute('href', '../css/alternate.css');
+                        } else {
+                            theme.setAttribute('href', '../css/style.css');
+                        }
+                    }
+                </script>
+                <a href="sources.html">Sources</a>
+                <a href="avis.html">Donnez un avis !</a>
+            </nav>
+        </footer>
+    </body>
+</html>
