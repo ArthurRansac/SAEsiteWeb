@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Voici Notre site Web inspiré du site officiel https://www.les3vallees.com/fr">
         <title>Domaine des 3 Vallées</title>
-        <link id="theme" rel="stylesheet" href="../css/style.css">
+        <link id="theme" rel="stylesheet" href="css/style.css">
         <link rel="icon" href="/assets/fav.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
@@ -15,14 +15,14 @@
                 <nav class="navbar" aria-label="Navigation principale">
                     <div class="nav-center">
                         <a class="instagram" href="https://www.instagram.com/les3vallees_officiel/">
-                            <img src="../assets/instagram.svg" alt="Instagram des 3 Vallées" width="20" height="20">
+                            <img src="assets/instagram.svg" alt="Instagram des 3 Vallées" width="20" height="20">
                         </a>
-                        <a class="logo" href="index.html">
-                            <img src="../assets/Logo.png" alt="Les 3 Vallées — Accueil" width="96" height="44">
+                        <a class="logo" href="html/index.html">
+                            <img src="assets/Logo.png" alt="Les 3 Vallées — Accueil" width="96" height="44">
                         </a>
                         <div class="nav-links">
-                            <a href="Forfaits.html">Forfaits <img src="../assets/forfaits.svg" alt="" width="16" height="16"></a>
-                            <a href="Reservation.html">Réservation <img src="../assets/external.svg" alt="" width="14" height="14"></a>
+                            <a href="html/Forfaits.html">Forfaits <img src="assets/forfaits.svg" alt="" width="16" height="16"></a>
+                            <a href="html/Reservation.html">Réservation <img src="assets/external.svg" alt="" width="14" height="14"></a>
                         </div>
                     </div>
                     <div class="searchbar">
@@ -32,11 +32,11 @@
                     <details class="dropdown-container">
                         <summary>Catégories<i class="fa-solid fa-angle-down" aria-hidden="true"></i></summary>
                         <div class="dropdown">
-                            <a href="Domaine.html">Le domaine</a>
-                            <a href="Stations.html">Les stations</a>
-                            <a href="Reservation.html">Réservation</a>
-                            <a href="Forfaits.html">Forfaits</a>
-                        <a href="sources.html">Sources</a>
+                            <a href="html/Domaine.html">Le domaine</a>
+                            <a href="html/Stations.html">Les stations</a>
+                            <a href="html/Reservation.html">Réservation</a>
+                            <a href="html/Forfaits.html">Forfaits</a>
+                        <a href="html/sources.html">Sources</a>
                         </div>
                 </details>
                 </nav>
@@ -50,8 +50,8 @@
             <section class="video-soustitre-section">
                 <div>
                     <video width="560" height="315" controls preload="metadata" class="video-soustitre">
-                        <source src="../video/3-vallees.mp4" type="video/mp4">
-                        <track src="../video/sous-titres-fr.vtt" kind="subtitles" srclang="fr" label="Français" default>
+                        <source src="video/3-vallees.mp4" type="video/mp4">
+                        <track src="video/sous-titres-fr.vtt" kind="subtitles" srclang="fr" label="Français" default>
                         Votre navigateur ne supporte pas la lecture de vidéos
                     </video>
                     <h2 class="titre-video">Val Thorens. La station d'hiver </h2>
@@ -59,7 +59,7 @@
             </section>
         </main>
         <footer class="site-footer">
-            <img src="../assets/LOGO_AMU.webp" alt="Aix-Marseille Université" width="240" height="83">
+            <img src="assets/LOGO_AMU.webp" alt="Aix-Marseille Université" width="240" height="83">
             <div class="footer-reseaux">
                 <a href="https://www.facebook.com/les3vallees.officiel/" aria-label="Facebook des 3 Vallées">
                     <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
@@ -78,15 +78,15 @@
                         let theme = document.getElementById('theme');
 
                         // Toggle between light.css and dark.css
-                        if (theme.getAttribute('href') == '../css/style.css') {
-                            theme.setAttribute('href', '../css/alternate.css');
+                        if (theme.getAttribute('href') == 'css/style.css') {
+                            theme.setAttribute('href', 'css/alternate.css');
                         } else {
-                            theme.setAttribute('href', '../css/style.css');
+                            theme.setAttribute('href', 'css/style.css');
                         }
                     }
                 </script>
-                <a href="sources.html">Sources</a>
-                <a href="avis.html">Donnez un avis !</a>
+                <a href="html/sources.html">Sources</a>
+                <a href="html/avis.html">Donnez un avis !</a>
             </nav>
         </footer>
     </body>
