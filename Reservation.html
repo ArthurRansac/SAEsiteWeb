@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Voici Notre site Web inspiré du site officiel https://www.les3vallees.com/fr">
         <title>Réserver votre séjour - Les 3 Vallées</title>
-        <link rel="stylesheet" href="style.css">
+        <link id="theme" rel="stylesheet" href="style.css">
         <link rel="icon" href="assets/fav.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
@@ -60,6 +60,21 @@
                     </article>
                 </section>
             </section>
+            <!-- button avec js pour le changement de feuille de style viens de : https://www.geeksforgeeks.org/javascript/how-to-switch-between-multiple-css-stylesheets-using-javascript/ -->
+            <button onclick="toggleTheme()">Switch</button>
+            <script>
+                function toggleTheme() {
+                    // Select the <link> element
+                    let theme = document.getElementById('theme');
+
+                    // Toggle between light.css and dark.css
+                    if (theme.getAttribute('href') == 'style.css') {
+                        theme.setAttribute('href', 'alternate.css');
+                    } else {
+                        theme.setAttribute('href', 'style.css');
+                    }
+                }
+            </script>
         </main>
     </body>
 </html>
