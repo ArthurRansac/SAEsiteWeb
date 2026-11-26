@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: Mapolice;
-    src: url("fonts/PlayfulTime-BLBB8.ttf") format("truetype");
+    src: url("../fonts/PlayfulTime-BLBB8.ttf") format("truetype");
     font-display: swap;
 }
 body {
@@ -27,38 +27,109 @@ h1 {
     font-weight: 400;
 }
 
+
 /* chaques pages*/
 .page-principale {
     background: linear-gradient(to left, rgba(0,0,159,1) 1%, transparent 60%),
-        #103e52 url("assets/scroll1.webp") center top / cover no-repeat;
+        #103e52 url("../assets/scroll1.webp") center top / cover no-repeat;
 }
-.page-stations {
-    background: #103e52 url("assets/ValThorens.webp") center top / cover no-repeat;
+.page-stations, .page-station, .page-domaines, .page-reservations, .page-avis {
+    background: #0b1216;
+    color: white;
 }
-.page-domaines {
-    background: rgba(0,0,158,1);
+.stations-bandeau {
+    background: linear-gradient(to top, #0b1216, transparent 65%),
+        url("../assets/ValThorens.webp") center / cover no-repeat;
 }
-
-.page-reservations {
-
-    background: linear-gradient(to top, rgba(0,0,0,1) 10%, rgba(160,160,160,1) 100%);
+.page-sources {
+    background: #faf7f2;
+    color: #182b35;
 }
-.page-domaines, .page-domaines main {
-    height: 100%;
+.avis-contenu {
+    background: linear-gradient(#0b121655, #0b1216cc),
+        url("../assets/station-meribel.webp") center / cover no-repeat;
+}
+.page-accueil {
+    background: #14141e;
+    color: white;
+}
+.site-footer {
+    background: #080b0d;
+    color: #e1e3e4;
+    border-top: 1px solid #ffffff1a;
+}
+.page-forfaits {
+    background: #1c2630;
+    color: white;
+}
+.domaine {
+    background: linear-gradient(to top, #0b1216, transparent 60%),
+        url("../assets/domainev3.webp") center / cover no-repeat;
+}
+.reservation {
+    background: linear-gradient(to top, #0b1216, transparent),
+        url("../assets/chalet2.webp") center / cover no-repeat;
+}
+.appartement {
+    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("../assets/appartement.webp");
+}
+.hotel {
+    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("../assets/hotel.webp");
+}
+.video-soustitre-section {
+    background: linear-gradient(to bottom, #000, transparent 40%),url("../assets/scroll1.webp") center / cover no-repeat;
+}
+.forfaits-bandeau {
+    background: linear-gradient(to bottom, #0005 40%, #1c2630),
+        url("../assets/forfaits.webp") center / cover no-repeat;
+}
+.sources-bandeau {
+    background: linear-gradient(to top, #0b121699, #0b12161a),
+        url("../assets/credits.webp") center / cover no-repeat;
+}
+#station-val-thorens {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-val-thorens.webp") center / cover no-repeat;
+}
+#station-meribel {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-meribel.webp") center / cover no-repeat;
+}
+#station-les-menuires {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-les-menuires.webp") center / cover no-repeat;
+}
+#station-orelle {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-orelle.webp") center / cover no-repeat;
+}
+#station-saint-martin-de-belleville {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-saint-martin-de-belleville.webp") center / cover no-repeat;
+}
+#station-courchevel {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-courchevel.webp") center / cover no-repeat;
+}
+#station-brides-les-bains {
+    background: linear-gradient(to top, #0b1216, transparent 70%),
+        url("../assets/station-brides-les-bains.webp") center / cover no-repeat;
 }
 .site-header {
     position: relative;
     z-index: 10;
 }
-.page-domaines .site-header, .page-reservations .site-header, .page-forfaits .site-header {
-    position: absolute;
-    top: 0;
-    width: 100%;
+.page-accueil .site-header {
+    position: relative;
 }
 .page-reservations .site-header {
     background: linear-gradient(to bottom, #0b1216, transparent);
 }
 
+.page-sources .site-header {
+    color: white;
+    background: linear-gradient(to bottom, #0b1216b3, transparent);
+}
 /* navbar*/
 .navbar {
     display: grid;
@@ -184,8 +255,6 @@ button:focus i {
 .domaine {
     justify-content: flex-end;
     padding: 180px 6% 100px;
-    background: linear-gradient(to top, #0b1216, transparent 60%),
-        url("assets/domainev3.webp") center / cover no-repeat;
 }
 .domaine h1 {
     margin: 12px 0;
@@ -244,7 +313,7 @@ button:focus i {
     padding: 280px 6% 90px;
     
     background: linear-gradient(to top, #0b1216, transparent),
-        url("assets/chalet2.png") center / cover no-repeat;
+        url("../assets/chalet2.png") center / cover no-repeat;
 }
 .reservation h1, .reservation p {
     margin: 0 0 16px;
@@ -295,10 +364,10 @@ button:focus i {
     margin: 0;
 }
 .appartement {
-    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("assets/appartement.webp");
+    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("../assets/appartement.webp");
 }
 .hotel {
-    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("assets/hotel.webp");
+    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("../assets/hotel.webp");
 }
 
 @media (max-width: 900px) {
@@ -376,7 +445,7 @@ button:focus i {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background: linear-gradient(to left, rgba(0,0,159,1), transparent 40%),url("assets/montagne.webp") center / cover no-repeat;
+    background: linear-gradient(to left, rgba(0,0,159,1), transparent 40%),url("../assets/montagne.webp") center / cover no-repeat;
 }
 .video-soustitre-section > div {
     width: 100%;
@@ -390,7 +459,7 @@ button:focus i {
 }
 .titre-video {
     font-family: Mapolice;
-    src: url("fonts/PlayfulTime-BLBB8.ttf") format("truetype");
+    src: url("../fonts/PlayfulTime-BLBB8.ttf") format("truetype");
     font-size: clamp(22px, 4vw, 32px);
     f
     line-height: 1.3;
@@ -398,7 +467,7 @@ button:focus i {
 
 /* forfaits */
 .page-forfaits {
-    src: url("fonts/PlayfulTime-BLBB8.ttf") format("truetype");
+    src: url("../fonts/PlayfulTime-BLBB8.ttf") format("truetype");
     font-size: clamp(22px, 4vw, 32px);
     background: #1c2630;
 }
@@ -411,7 +480,7 @@ button:focus i {
     justify-content: flex-start;
     align-items: flex-end;
     background: linear-gradient(to top, #0005 40%, #1c2630),
-        url("assets/forfaits.webp") center / cover no-repeat;
+        url("../assets/forfaits.webp") center / cover no-repeat;
 }
 .forfaits-bandeau h1 {
     margin: 0;
@@ -474,9 +543,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .site-footer {
     display: flex;
     align-items: center;
+    background: rgba(10,10,150,1);
+    flex-direction: row-reverse;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 32px;
+    color: rgba(100,0,0,1);
     padding: 32px 6%;
 }
 .site-footer img {
