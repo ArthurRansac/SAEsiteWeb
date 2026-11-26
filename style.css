@@ -178,7 +178,7 @@ button:focus i {
     justify-content: flex-end;
     padding: 180px 6% 100px;
     background: linear-gradient(to top, #0b1216, transparent 60%),
-        url("assets/domainev3.jpg") center / cover no-repeat;
+        url("assets/domainev3.webp") center / cover no-repeat;
 }
 .domaine h1 {
     margin: 12px 0;
