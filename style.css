@@ -33,10 +33,10 @@ h1 {
 /* chaques pages*/
 .page-principale {
     background: linear-gradient(to top, #000 1%, transparent 60%),
-        #103e52 url("assets/montagne.png") center top / cover no-repeat;
+        #103e52 url("assets/montagne.webp") center top / cover no-repeat;
 }
 .page-stations {
-    background: #103e52 url("assets/ValThorens.png") center top / cover no-repeat;
+    background: #103e52 url("assets/ValThorens.webp") center top / cover no-repeat;
 }
 .page-domaines, .page-reservations {
     background: #0b1216;
@@ -279,10 +279,10 @@ button:focus i {
     margin: 0;
 }
 .appartement {
-    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("assets/appartement.png");
+    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("assets/appartement.webp");
 }
 .hotel {
-    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("assets/hotel.png");
+    background-image: linear-gradient(to top, #0b1216, transparent 70%), url("assets/hotel.webp");
 }
 
 @media (max-width: 900px) {
@@ -360,7 +360,7 @@ button:focus i {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #000, transparent 40%),url("assets/scroll1.png") center / cover no-repeat;
+    background: linear-gradient(to bottom, #000, transparent 40%),url("assets/scroll1.webp") center / cover no-repeat;
 }
 .video-soustitre-section > div {
     width: 100%;
@@ -389,7 +389,7 @@ button:focus i {
     flex-direction: column;
     justify-content: flex-end;
     background: linear-gradient(to bottom, #0005 40%, #1c2630),
-        url("assets/forfaits.jpg") center / cover no-repeat;
+        url("assets/forfaits.webp") center / cover no-repeat;
 }
 .forfaits-bandeau h1 {
     margin: 0;
