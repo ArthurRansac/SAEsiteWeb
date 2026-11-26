@@ -31,14 +31,14 @@ a edit : https://www.figma.com/design/SsbIvDWpF3fGXFYqA27X2L/a-edit?node-id=2007
 (2,5 %) ; 
 - [ ] un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré 
 automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ; 
-- [ ] une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (5 %) ; 
+- [x] une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (5 %) ; 
 - [x] pour les longues pages Web, un ancrage permettant de remonter en haut de la page (2,5 %) ; 
 - [ ] possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation 
 d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut 
 (7,5 %) ; 
-- [ ] le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; 
-- [X] bonne architecture des répertoires (2,5 %) ; 
-- [ ] programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
+- [x] le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; 
+- [x] bonne architecture des répertoires (2,5 %) ; 
+- [x] programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
 convention de nommage en anglais, indentation et commentarisation du code source 
 (5 %)  
 - [ ] l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
