@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
     <body class="page-avis">
+        <!-- navbar communne aux pages -->
         <header class="site-header">
             <nav class="navbar" aria-label="Navigation principale">
                 <div class="nav-center">
@@ -45,7 +46,8 @@
                 <h1>Votre avis</h1>
                 <p>Partagez vos impressions sur notre site</p>
                 <!-- Formulaire inspiré du modèle de Mickaël Martin Nevot et Pierre-Alexis de Solminihac -->
-                <form action="mailto:?subject=Avis%20sur%20le%20site%20Les%203%20Vall%C3%A9es" method="post" enctype="text/plain">
+                <!-- prépare un mail avec les réponses du formulaire -->
+                <form action="mailto:sae3vallees@proton.me?subject=Site%20Web" method="post" enctype="text/plain">
                     <div class="avis-identite">
                         <div>
                             <label for="prenom">Prénom</label>
@@ -67,6 +69,7 @@
                 </form>
             </section>
         </main>
+        <!-- logo de l’université et liens utiles dans le footer -->
         <footer class="site-footer">
             <img src="../assets/LOGO_AMU.webp" alt="Aix-Marseille Université" width="240" height="83">
             <div class="footer-reseaux">
